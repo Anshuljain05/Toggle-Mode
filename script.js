@@ -27,3 +27,13 @@ toggle.addEventListener('click', function(){
 		lightToBlack();
 	}
 });
+
+document.getElementById('outer').addEventListener('click', function(){
+	count++;
+	if(count%2 === 0){
+		blackToLight();
+	}
+	else{
+		lightToBlack();
+	}
+});
